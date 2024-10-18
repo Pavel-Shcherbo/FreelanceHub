@@ -23,6 +23,7 @@
 - **Payment** – финансовая транзакция между клиентом и фрилансером.
 - **Review** – отзыв клиента на работу фрилансера, содержащий оценку и комментарии.
 
+![Диаграмма классов](./diagrams/Freelance%20Marketplace%20Class%20Diagram.png)
 [Диаграмма классов](./diagrams/Freelance%20Marketplace%20Class%20Diagram.png)
 
 ## 2. Диаграмма вариантов использования, глоссарий и поток событий
@@ -37,6 +38,7 @@
 | Клиент        | Пользователь системы, который размещает проекты и выбирает фрилансеров. |
 | Администратор | Пользователь, управляющий системой и решающий спорные ситуации.  |
 
+![Диаграмма вариантов использования](./diagrams/Freelance%20Marketplace%20Use%20Case%20Diagram.png)
 [Диаграмма вариантов использования](./diagrams/Freelance%20Marketplace%20Use%20Case%20Diagram.png)
 
 ### Варианты использования
@@ -58,30 +60,40 @@
 
 Диаграммы активности показывают процессы внутри системы, включая создание проекта, подачу заявки и выбор фрилансера клиентом.
 
-- [Диаграмма активности 1: Создание проекта](./diagrams/New%20Project%20Creation%20Process.png)
-- [Диаграмма активности 2: Подача заявки фрилансером](./diagrams/Freelancer%20Proposal%20Submission%20Process.png)
-- [Диаграмма активности 3: Процесс выбора фрилансера клиентом](./diagrams/Client%20Freelancer%20Selection%20Process.png)
+- ![Диаграмма активности 1: Создание проекта](./diagrams/New%20Project%20Creation%20Process.png)
+  [Диаграмма активности 1: Создание проекта](./diagrams/New%20Project%20Creation%20Process.png)
+- ![Диаграмма активности 2: Подача заявки фрилансером](./diagrams/Freelancer%20Proposal%20Submission%20Process.png)
+  [Диаграмма активности 2: Подача заявки фрилансером](./diagrams/Freelancer%20Proposal%20Submission%20Process.png)
+- ![Диаграмма активности 3: Процесс выбора фрилансера клиентом](./diagrams/Client%20Freelancer%20Selection%20Process.png)
+  [Диаграмма активности 3: Процесс выбора фрилансера клиентом](./diagrams/Client%20Freelancer%20Selection%20Process.png)
 
 ## 4. Диаграммы последовательности
 
 Диаграммы последовательности показывают динамические взаимодействия между объектами системы на разных этапах, таких как создание проекта, регистрация и подача заявки.
 
-- [Диаграмма последовательности 1: Регистрация пользователя](./diagrams/Sequence%20Diagram%20User%20Registration.png)
-- [Диаграмма последовательности 2: Завершение проекта и отзыв](./diagrams/Sequence%20Diagram%20Project%20Completion%20and%20Review.png)
-- [Диаграмма последовательности 3: Выбор фрилансера клиентом](./diagrams/Sequence%20Diagram%20Client%20Freelancer%20Selection.png)
+- ![Диаграмма последовательности 1: Регистрация пользователя](./diagrams/Sequence%20Diagram%20User%20Registration.png)
+  [Диаграмма последовательности 1: Регистрация пользователя](./diagrams/Sequence%20Diagram%20User%20Registration.png)
+- ![Диаграмма последовательности 2: Завершение проекта и отзыв](./diagrams/Sequence%20Diagram%20Project%20Completion%20and%20Review.png)
+  [Диаграмма последовательности 2: Завершение проекта и отзыв](./diagrams/Sequence%20Diagram%20Project%20Completion%20and%20Review.png)
+- ![Диаграмма последовательности 3: Выбор фрилансера клиентом](./diagrams/Sequence%20Diagram%20Client%20Freelancer%20Selection.png)
+  [Диаграмма последовательности 3: Выбор фрилансера клиентом](./diagrams/Sequence%20Diagram%20Client%20Freelancer%20Selection.png)
 
 ## 5. Диаграммы состояний
 
 Диаграммы состояний демонстрируют изменения состояния различных сущностей в системе, таких как заказ, поиск проектов и регистрация.
 
-- [Диаграмма состояний 1: Состояние подачи заказа](./diagrams/State%20Diagram%20Order%20Submission.jpg)
-- [Диаграмма состояний 2: Состояние поиска и отображения проектов](./diagrams/State%20Diagram%20Project%20Search%20and%20Display.jpg)
-- [Диаграмма состояний 3: Регистрация и авторизация пользователя](./diagrams/State%20Diagram%20Registration%20and%20Authorization.jpg)
+- ![Диаграмма состояний 1: Состояние подачи заказа](./diagrams/State%20Diagram%20Order%20Submission.jpg)
+  [Диаграмма состояний 1: Состояние подачи заказа](./diagrams/State%20Diagram%20Order%20Submission.jpg)
+- ![Диаграмма состояний 2: Состояние поиска и отображения проектов](./diagrams/State%20Diagram%20Project%20Search%20and%20Display.jpg)
+  [Диаграмма состояний 2: Состояние поиска и отображения проектов](./diagrams/State%20Diagram%20Project%20Search%20and%20Display.jpg)
+- ![Диаграмма состояний 3: Регистрация и авторизация пользователя](./diagrams/State%20Diagram%20Registration%20and%20Authorization.jpg)
+  [Диаграмма состояний 3: Регистрация и авторизация пользователя](./diagrams/State%20Diagram%20Registration%20and%20Authorization.jpg)
 
 ## 6. Диаграмма компонентов и развертывания
 
 Диаграмма компонентов и развертывания показывает архитектуру системы и развертывание компонентов.
 
+![Диаграмма компонентов и развертывания](./diagrams/Application%20Component%20Diagram.png)
 [Диаграмма компонентов и развертывания](./diagrams/Application%20Component%20Diagram.png)
 
 ---
